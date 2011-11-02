@@ -1,0 +1,22 @@
+html, body 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    color: #000;
+    font-size: 1em;
+}
+
+img
+{
+    border: 0;
+}
+
+#container
+{
+    margin: 0 auto;
+    width: 100%;
+}

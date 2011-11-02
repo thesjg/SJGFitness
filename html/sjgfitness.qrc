@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>calendar.html</file>
+        <file>assets/css/screen.css</file>
+        <file>assets/css/calendar.css</file>
+        <file>assets/img/icons/calendar/event_add.png</file>
+        <file>assets/img/icons/calendar/log_delete.png</file>
+        <file>assets/img/icons/calendar/log_edit.png</file>
+        <file>assets/img/icons/calendar/log_upload.png</file>
+        <file>assets/js/calendar.js</file>
+        <file>assets/js/desktop.js</file>
+        <file>assets/js/fitness.data.analyze.js</file>
+        <file>assets/js/fitness.data.js</file>
+        <file>assets/js/fitness.data.store.js</file>
+        <file>assets/js/jquery-1.6.2.js</file>
+        <file>assets/js/jsonfit.gpx.js</file>
+        <file>assets/js/jsonfit.js</file>
+        <file>assets/js/jsonfit.pwx.js</file>
+        <file>assets/js/jsonfit.tcx.js</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="400">
+
+  <rect id="background" x="0" y="0" width="1000" height="400" fill="#fff" />
+
+  <g id="splits">
+    <g id="split_markers_bg" stroke="#ccc" stroke-width="1.0" stroke-dasharray="3 1">
+      <line x1="150.5" y1="40" x2="150.5" y2="360" />
+      <line x1="350.5" y1="40" x2="350.5" y2="360" />
+      <line x1="400.5" y1="40" x2="400.5" y2="360" />
+      <line x1="725.5" y1="40" x2="725.5" y2="360" />
+    </g>
+    <g id="split_markers" stroke="black" stroke-width="2">
+	    <line x1="150" y1="360" x2="150" y2="370" />
+	    <line x1="350" y1="360" x2="350" y2="370" />
+	    <line x1="400" y1="360" x2="400" y2="370" />
+	    <line x1="725" y1="360" x2="725" y2="370" />
+	  </g>
+	  <g id="split_labels" font-size="10" text-anchor="middle">
+	    <text x="125" y="375">00:00</text>
+	    <text x="250" y="375">00:00</text>
+	    <text x="375" y="375">00:00</text>
+	    <text x="562.5" y="375">00:00</text>
+	    <text x="812.5" y="375">00:00</text>
+	  </g>
+  </g>
+
+  <g id="intervals">
+    <g id="interval_markers">
+	    <line x1="100" y1="40" x2="100" y2="30" stroke="black" stroke-width="2" />
+	    <line x1="150" y1="40" x2="150" y2="30" stroke="black" stroke-width="2" />
+	    <line x1="350" y1="40" x2="350" y2="30" stroke="black" stroke-width="2" />
+	    <line x1="400" y1="40" x2="400" y2="30" stroke="black" stroke-width="2" />
+	    <line x1="725" y1="40" x2="725" y2="30" stroke="black" stroke-width="2" />
+	    <line x1="900" y1="40" x2="900" y2="30" stroke="black" stroke-width="2" />
+	  </g>
+	  <g id="interval_labels" font-size="10" text-anchor="middle">
+	    <text x="100" y="25" font-size="11" text-anchor="end">00:00</text>
+	    <text x="150" y="25">00:00</text>
+	    <text x="350" y="25">00:00</text>
+	    <text x="400" y="25">00:00</text>
+	    <text x="725" y="25">00:00</text>
+	    <text x="900" y="25" font-size="11" text-anchor="start">00:00</text>
+	  </g>
+  </g>
+
+
+  <g id="y">
+    <g id="bpm">
+      <g id="bpm_markers_bg" stroke="#ccc" stroke-width="1" stroke-dasharray="3 1">
+        <line x1="100" y1="80.5" x2="900" y2="80.5" />
+        <line x1="100" y1="120.5" x2="900" y2="120.5" />
+        <line x1="100" y1="160.5" x2="900" y2="160.5" />
+        <line x1="100" y1="200.5" x2="900" y2="200.5" />
+      </g>
+      <g id="bpm_markers" stroke="black" stroke-width="2">
+        <line x1="100" y1="80" x2="95" y2="80" />
+        <line x1="100" y1="120" x2="95" y2="120" />
+        <line x1="100" y1="160" x2="95" y2="160" />
+        <line x1="100" y1="200" x2="95" y2="200" />
+      </g>
+      <g id="bpm_labels" font-size="11" text-anchor="end" dominant-baseline="central">
+        <text x="90" y="60">BPM</text>
+        <text x="90" y="84">180</text>
+        <text x="90" y="124">160</text>
+        <text x="90" y="164">140</text>
+        <text x="90" y="204">120</text>
+      </g>
+    </g>
+    <g id="pace">
+      <g id="pace_markers_bg" stroke="#ccc" stroke-width="1" stroke-dasharray="3 1">
+        <line x1="100" y1="240.5" x2="900" y2="240.5" />
+        <line x1="100" y1="280.5" x2="900" y2="280.5" />
+        <line x1="100" y1="320.5" x2="900" y2="320.5" />
+      </g>
+      <g id="pace_markers" stroke="black" stroke-width="2">
+        <line x1="900" y1="200" x2="905" y2="200" />
+        <line x1="900" y1="240" x2="905" y2="240" />
+        <line x1="900" y1="280" x2="905" y2="280" />
+        <line x1="900" y1="320" x2="905" y2="320" />
+      </g>
+      <g id="pace_labels" font-size="11" text-anchor="start">
+        <text x="910" y="180" font-size="">Pace</text>
+        <text x="910" y="204">xxx</text>
+        <text x="910" y="244">xxx</text>
+        <text x="910" y="284">xxx</text>
+        <text x="910" y="324">xxx</text>
+      </g>
+    </g>
+  </g>
+
+  <polyline points="100,210 150,205 200,80 250,85 300,80 350,55 400,85 450,80 500,90 550,85 600,75 650,90 700,80 750,90 800,110 850,150 900,200" stroke="green" stroke-width="2" fill="none" />
+  <polyline points="100,230 150,235 200,250 250,255 300,250 350,240 400,280 450,285 500,270 550,300 600,330 650,300 700,255 750,280 800,285 850,235 900,180" stroke="red" stroke-width="2" fill="none" />
+
+  <rect id="border" x="100" y="40" width="800" height="320" stroke="black" stroke-width="2" fill="none" />
+ 
+<!--
+  <path id="lineAB" d="M 100 350 l 150 -300" stroke="red" stroke-width="3" fill="none" />
+  <path id="lineBC" d="M 250 50 l 150 300" stroke="red" stroke-width="3" fill="none" />
+  <path id="lineBC" d="M 175 200 l 150 0" stroke="red" stroke-width="3" fill="none" />
+  <path id="quadcurveABC" d="M 100 350 q 150 -300 300 0" stroke="blue" stroke-width="5" fill="none" />
+  <g stroke="black" stroke-width="3" fill="black">
+    <circle id="pointA" cx="100" cy="350" r="3" />
+    <circle id="pointB" cx="250" cy="50" r="3" />
+    <circle id="pointC" cx="400" cy="350" r="3" />
+  </g>
+  <g font-size="30" font="sans-serif" fill="black" stroke="none" text-anchor="middle">
+    <text x="100" y="350" dx="-30">A</text>
+    <text x="250" y="50" dy="-10">B</text>
+    <text x="400" y="350" dx="30">C</text>
+  </g>
+-->
+
+</svg>
